@@ -1,0 +1,8 @@
+{{product.title}}
+<br>
+{{product.text}}
+<br>
+{{product.price}}
+
+<a href="{% url 'edit_post' product.id %}">수정하기</a>
+<a href="{% url 'delete_post' product.id %}">삭제하기</a>
